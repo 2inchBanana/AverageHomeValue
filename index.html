@@ -3,7 +3,6 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <title>Median Home Values</title>
-    
     <script id="mapScript">if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +14,7 @@
 <body>
     <h2>Median Home Values</h2>
     <div class="map">
-        <iframe src="https://createaclickablemap.com/map.php?&id=114301&maplocation=false&online=true" width="1200" height="900" style="border: none;"></iframe>
+        <iframe src="https://createaclickablemap.com/map.php?&id=114301&maplocation=false&online=true" width="1200" height="600" style="border: none;"></iframe>
     </div>
     <div class="container mt-3">
         <h2>Filter By State</h2>  
@@ -297,16 +296,14 @@
                   table.innerHTML += row;
               }
           }
-        </script>
-        <script>
-            $(document).ready(function(){
-              $("#myInput").on("keyup", function() {
-                var value = $(this).val().toLowerCase();
-                $("#myTable tr").filter(function() {
-                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
+          $(document).ready(function(){
+            $("#myInput").on("keyup", function() {
+              var value = $(this).val().toLowerCase();
+              $("#myTable tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
               });
             });
+          });
         </script>
     </div>
 

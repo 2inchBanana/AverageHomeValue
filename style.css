@@ -6,15 +6,17 @@
 h2{
     text-align: center;
     margin: 0px;
+    /* background-color: rgba(173, 252, 252, 0.44); */
+    padding: 20px;
 }
 
 body{
-    min-height: 100vh;
     width: 100%;
-    margin: auto;
+    /* background-color: rgba(173, 252, 252, 0.44); */
 }
 
 .map{
     text-align: center;
     margin: 0px;
+    /* background-color: rgba(173, 252, 252, 0.44); */
 }
