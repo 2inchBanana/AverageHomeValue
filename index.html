@@ -19,10 +19,10 @@
 
 <body>
     <div class="map-container">
-      <h2>Median Home Values</h2>
+      <h2>2022 Median Home Values Per State</h2>
       
       <!-- map frame -->
-      <iframe src="https://createaclickablemap.com/map.php?id=114491&maplocation=null&online=true" width=1200px height=650px style="border: none;"></iframe>
+      <iframe src="https://createaclickablemap.com/map.php?id=114491&maplocation=null&online=true"></iframe>
       <script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
     </div>
 
@@ -50,8 +50,8 @@
         <table class="table table-bordered table-hover" id="myTable">
           <thead>
             <tr>
-              <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">State &#8645</th>
-              <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(2)')" style="cursor:pointer">Value &#8645</th>
+              <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">State <span style="color: rgb(123, 180, 234);">&#8645;</span></th>
+              <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(2)')" style="cursor:pointer">Value <span style="color: rgb(123, 180, 234);">&#8645;</span></th>
             </tr>
           </thead>
         </table>

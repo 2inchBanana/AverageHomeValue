@@ -3,24 +3,33 @@
     font-family: sans-serif;
 }
 
-.map-container{
+.map-container {
     padding: 30px;
     text-align: center;
 }
 
-.filter-search-section{
-    padding:0px 30px 30px 30px;
+iframe {
     margin: auto;
-    max-width: 1000px;
+    display: block;
+    width: 1200px;
+    height: 650px;
 }
 
-.filter-search-section h2{
+.filter-search-section {
+    padding:0px 30px 30px 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    max-width: 1000px;
     text-align: center;
 }
 
-.search-bar-section{
+.search-bar-section {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+#myTable th {
+    width: 50%;
+}
