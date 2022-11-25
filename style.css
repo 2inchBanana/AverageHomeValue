@@ -1,26 +1,36 @@
 *{
-    margin: 0;
     font-family: sans-serif;
 }
 
 .map-container {
-    padding: 30px;
+    border: solid rgb(123, 180, 234);
+    border-radius: 20px;
+    padding: 2% 0% 2% 0%;
+    margin: auto;
+    margin-top: 5%;
     text-align: center;
+    position: relative;
+    width: 75%;
+    overflow: hidden;
+    padding-bottom: 45%; 
 }
 
 iframe {
-    margin: auto;
-    display: block;
-    width: 1200px;
-    height: 650px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 90%;
 }
 
 .filter-search-section {
-    padding:0px 30px 30px 30px;
+    border: solid rgb(123, 180, 234);
+    border-radius: 20px;
+    padding: 20px 30px 20px 30px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 100px;
-    max-width: 1000px;
+    width: 75%;
     text-align: center;
 }
 
