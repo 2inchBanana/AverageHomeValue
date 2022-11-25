@@ -10,17 +10,17 @@
     margin-top: 5%;
     text-align: center;
     position: relative;
-    width: 75%;
+    width: 1280px;
+    height: 820px;
     overflow: hidden;
-    padding-bottom: 45%; 
 }
 
 iframe {
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 0;
-    width: 100%;
-    height: 90%;
+    width: 1280px;
+    height: 720px;
 }
 
 .filter-search-section {
@@ -30,7 +30,7 @@ iframe {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 100px;
-    width: 75%;
+    width: 500px;
     text-align: center;
 }
 
