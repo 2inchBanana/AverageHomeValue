@@ -7,7 +7,7 @@
     border-radius: 20px;
     padding: 2% 0% 2% 0%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 12.5%;
     text-align: center;
     position: relative;
     width: 75%;
@@ -29,7 +29,7 @@ iframe {
     padding: 20px 30px 20px 30px;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 12.5%;
     width: 75%;
     text-align: center;
 }
@@ -42,4 +42,25 @@ iframe {
 
 #myTable th {
     width: 50%;
+}
+
+@media screen and (max-width: 420px) {
+    .map-container {
+        width: 94%;
+        margin: 3%;
+        padding-bottom: 60%;
+    }
+
+    .filter-search-section {
+        width: 94%;
+        margin: 3%;
+    }
+
+    iframe {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        height: 90%;
+    }
 }
