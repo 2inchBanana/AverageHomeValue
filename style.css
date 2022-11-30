@@ -49,13 +49,13 @@ iframe {
 
 @media screen and (max-width: 420px) {
     .map-container {
-        width: 94%;
+        min-width: 94%;
+        min-height: 30%;
         margin: 3%;
-        padding-bottom: 60%;
     }
 
     .filter-search-section {
-        width: 94%;
+        min-width: 94%;
         margin: 3%;
     }
 
